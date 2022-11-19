@@ -1,0 +1,76 @@
+﻿  Source.cpp
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(347,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(358,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(369,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(380,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(681,47): warning C4244: инициализация: преобразование "wchar_t" в "_Objty", возможна потеря данных
+          with
+          [
+              _Objty=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1619): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,wchar_t&>(_Alloc &,_Objty *const ,wchar_t &)"
+          with
+          [
+              _Alloc=std::allocator<char>,
+              _Ty=char,
+              _Objty=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1620): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,wchar_t&>(_Alloc &,_Objty *const ,wchar_t &)"
+          with
+          [
+              _Alloc=std::allocator<char>,
+              _Ty=char,
+              _Objty=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1659): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<wchar_t&>(wchar_t &)"
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1659): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<wchar_t&>(wchar_t &)"
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1641): message : выполняется компиляция ссылки на экземпляр шаблон функции "char *std::_Uninitialized_copy<_Iter,std::allocator<char>>(const _InIt,const _InIt,char *,_Alloc &)"
+          with
+          [
+              _Iter=wchar_t *,
+              _InIt=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(517): message : выполняется компиляция ссылки на экземпляр шаблон функции "char *std::vector<char,std::allocator<char>>::_Ucopy<_Iter>(_Iter,_Iter,char *)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(517): message : выполняется компиляция ссылки на экземпляр шаблон функции "char *std::vector<char,std::allocator<char>>::_Ucopy<_Iter>(_Iter,_Iter,char *)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(529): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<char,std::allocator<char>>::_Range_construct_or_tidy<wchar_t*>(_Iter,_Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(529): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<char,std::allocator<char>>::_Range_construct_or_tidy<wchar_t*>(_Iter,_Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(345): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<char,std::allocator<char>>::vector<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\ЮРА\source\repos\spz2\Source.cpp(345): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<char,std::allocator<char>>::vector<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  spz2.vcxproj -> C:\Users\ЮРА\source\repos\spz2\Debug\spz2.exe
